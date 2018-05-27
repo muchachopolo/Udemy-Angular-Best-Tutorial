@@ -1,0 +1,14 @@
+<h4>Click on the following buttons to show a warning or a success alert: </h4>
+<div class="row justify-content-md-center">
+  <div class="col-sm-auto">
+    <button class="btn btn-warning" (click)="openAlert(AlertType.Warning, 'This is the warning message.')">
+      Show Warning Alert
+    </button>
+  </div>
+  <div class="col-sm-auto">
+    <button class="btn btn-success" (click)="openAlert(AlertType.Success, 'This is the success message.')">
+      Show Success Alert
+    </button>
+  </div>
+</div>
+
