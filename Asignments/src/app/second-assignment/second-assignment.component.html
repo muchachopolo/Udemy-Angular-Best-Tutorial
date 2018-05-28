@@ -1,0 +1,15 @@
+<h3>Second Assignment</h3>
+
+<div>
+  <input type="text" [(ngModel)]="username">
+  <div class="alert alert-primary mt-1" role="alert" *ngIf="state">
+    User name was saved.
+  </div>
+</div>
+<div>
+  <p>{{username}}</p>
+</div>
+<div>
+  <button class="btn btn-primary" (click)="SaveUserName()" [disabled]="!username || username.length == 0">Click to Save</button>
+</div>
+
