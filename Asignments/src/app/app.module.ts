@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FistAssignmentModule } from './fist-assignment/fist-assignment.module';
 import { SecondAssignmentModule } from './second-assignment/second-assignment.module';
+import { ThirdAssignmentModule } from './third-assignment/third-assignment.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SecondAssignmentModule } from './second-assignment/second-assignment.mo
     BrowserModule,
     NgbModule.forRoot(),
     FistAssignmentModule,
-    SecondAssignmentModule
+    SecondAssignmentModule,
+    ThirdAssignmentModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]
