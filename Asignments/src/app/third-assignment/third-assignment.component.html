@@ -10,7 +10,7 @@
         There is no items in the list.
       </div>
       <ul class="list-group" *ngIf="!!list && list.length > 0">
-        <li class="list-group-item pointerw" (click)="removeItem(item, index)"
+        <li class="list-group-item pointer" (click)="removeItem(item, index)"
             *ngFor="let item of list; let index = index;"
             [ngClass]="graterOrEqualThan5(index)"
         >
